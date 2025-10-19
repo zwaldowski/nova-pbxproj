@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syntax name="pbxproj">
+    <meta>
+        <name>Xcode Project</name>
+        <type>structured</type>
+        <preferred-file-extension>pbxproj</preferred-file-extension>
+    </meta>
+    
+    <detectors>
+        <extension>pbxproj</extension>
+    </detectors>
+    
+    <comments>
+        <single>
+            <expression>//</expression>
+        </single>
+        <multiline>
+            <starts-with>
+                <expression>/*</expression>
+            </starts-with>
+            <ends-with>
+                <expression>*/</expression>
+            </ends-with>
+        </multiline>
+    </comments>
+    
+    <tree-sitter language="property_list">
+        <highlights path="highlights.scm" />
+        <folds path="folds.scm" />
+    </tree-sitter>
+</syntax>

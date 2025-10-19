@@ -1,0 +1,11 @@
+{
+    "identifier": "me.waldowski.pbxproj",
+    "name": "Xcode Project",
+    "organization": "Zachary Waldowski",
+    "description": "Syntax highlighting for Xcode project files.",
+    "version": "0.1",
+    "categories": ["languages"],
+    "repository": "https://github.com/zwaldowski/nova-pbxproj",
+    "license": "MIT",
+    "bugs": "https://github.com/zwaldowski/nova-pbxproj/issues/new"
+}
