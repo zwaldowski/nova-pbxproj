@@ -1,0 +1,3 @@
+[submodule "vendor/tree-sitter-property-list"]
+	path = vendor/tree-sitter-property-list
+	url = https://github.com/Formkunft/tree-sitter-property-list.git
